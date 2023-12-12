@@ -20,7 +20,7 @@ buildLinux (args // {
 
   src = fetchurl {
     url = "mirror://kernel/linux/kernel/v${majorVersion}.x/linux-${version}.tar.xz";
-    hash = "sha256-0irn3n5cg88wdxlhnak5myvyp3qi5y3wb37ff3bgjbqk27gdmxb7";
+    sha256 = "1j14n8b012pv3r7i9p762jyabzn2nv1ranxyw5lk3c9lg68hmxzb";
   };
 
   structuredExtraConfig = with lib.kernel; {
